@@ -2,77 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: olive;
-
+ 
 }
 
 html, body {
     height: 100%;
     width: 100%;
-}
-#nav{
-    height: 145px;
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
-    position: fixed;
-    padding: 0 150px;
-    z-index: 99;
-}
-#nav h1{
-    height: 75px;
-
-}
-#nav h4{
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-#main{
-    position: relative;
-    background-color: aqua;
-}
-#page1{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-#page1 h1{
-    font-size: 140px;
-    font-weight: 900;
-    position: relative;
-
-}
-#page1 h1::before{
-    content: "EAT. DRINK. PLAY. ";
-    position: absolute;
-    background-color: aliceblue;
-    top: -6PX;
-    left: -6PX;
-    -webkit-text-stroke: 2px #95C11E;
-    z-index: -1;
-}
-#page1 h2{
-    font-size: 30px;
-    font-weight:800;
-    margin: top;
-    margin-bottom: 20px;
-}
-#page1 p{
-    font-size: 20px;
-    font-weight: 500;
-    width: 40%;
-}
-#page2{
-
-    height: 100vh;
-    width: 40%;
 }
