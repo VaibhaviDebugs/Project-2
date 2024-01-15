@@ -140,8 +140,33 @@ justify-content: space-between;
      z-index: 999;
      height: 120%;
 }
-
-#imageabout{
-    width: 2vw;
-    height: 2vw;
+#about {
+    color: #fff;
+    display: flex;
+    align-items:center ;
+     gap: 50px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: #000;
 }
+#textabout {
+    width: 25rem;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+    font-weight: 300;
+
+}
+#textabout p {
+    line-height: 2;
+}
+
+
+#about img{
+    width : 200px;
+}
+
+
