@@ -8,12 +8,14 @@
     rel="stylesheet"
 />
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="loco.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
        <title>Document</title>
 </head>
 <body>
+  <div id="minicircle"></div>
     <div id="main">
         <div id="hero">
           <div id="nav">
@@ -21,26 +23,43 @@
               <h4>MENU+</h4>
               </div>
               <div id="heading">
-                <h1>Product</h1>
-                <div class="blocktext">
-                  <h1 id="secondh1">Designer</h1>
-                  <h5>Based in toronto</h5>
+                <div class="bounding">
+                  <h1 class="boundingelem"> Product</h1>    
                 </div>
-
+                
+                <div class="blocktext">
+                  <div class="bounding">
+                    
+                    <h1 class="boundingelem" id="secondh1">Designer</h1>
+                  </div>
+                  
+                  <div class="bounding">
+                    <h5 class="boundingelem">Based in toronto</h5>
+                  </div>
+                </div>
+                
               </div>
               
               <div id="headings2">
-                <h5>available for freelance</h5>
-                <h5>work from may 23</h5>
+                <div class="bounding">
+                  <h5 class="boundingelem">available for freelance</h5>
+                  
+                  
+                </div>
+                
+                <div class="bounding">
+                  <h5 class="boundingelem">work from may 23</h5>
+                </div>
               </div>
               <div id="herofooter">
                   <a href="#">previously worked ay yml <i class="ri-arrow-right-up-line"></i></a>
                   <a href="#">protopie ambassador</a>
                   <div id="iconset">
                     <div class="circle"><i class="ri-arrow-down-line"></i></div>
+                    
                     <div class="circle"><i class="ri-arrow-down-line"></i></div>
                   </div>
-                  </div>
+                </div>
               </div>
               <div id="second">
                 <div class="elem">
@@ -58,15 +77,31 @@
                   <h1>hudu</h1>
                   <h5>2024</h5>
                 </div>
-          </div>
-          <div id="about">
-           <img src="IMG_0859.png" alt="">
-            <div id="textabout">
-              <h5>(about me)</h5>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium dicta corporis fugit architecto. Sapiente accusantium eligendi enim obcaecati quis.</p>
-              <a href="">Let's Talk</a>
+              </div>
+              <div id="about">
+                <img src="IMG_0859.png" alt="">
+                <div id="textabout">
+                  <h5>(about me)</h5>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium dicta corporis fugit architecto. Sapiente accusantium eligendi enim obcaecati quis.</p>
+                  <a href="">Let's Talk</a>
+                </div>
+              </div> 
+              <div id="footer">
+                <h5>(forgot to mention)</h5>
+                <h3>subcribe to my youtube channel <i class="ri-arrow-down-line"></i></h3>
+              </div>
+              <div id="footer-bottom">
+                <div id="footerleft">
+                  <h5>2024 &copy;</h5>
+                  <h5>0:05 AM EST</h5>
+                </div>
+                <div id="footerright">
+                  <a href="#">fiver</a><a href="#">upwork</a><a href="#">X</a><a href="#">github</a>
+                </div>
+              </div>                       
             </div>
-          </div>                        
-    </div>
-</body>
-</html>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+            <script src="script.js"></script>
+          </body>
+          </html>
